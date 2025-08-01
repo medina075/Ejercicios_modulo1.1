@@ -1,6 +1,3 @@
-
-numero_correcto= 75
-
 print("Adivina el número entre 1 y 100")
 
 

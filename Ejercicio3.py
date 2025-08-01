@@ -14,6 +14,3 @@ for letra in frase.lower():
             vocales += 1
         else:
             consonantes += 1
-
-print("Cantidad de vocales:", vocales)
-print("Cantidad de consonantes:", consonantes)
