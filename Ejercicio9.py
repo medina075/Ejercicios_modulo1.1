@@ -1,1 +1,0 @@
-diccionario={"mi picha":3044012630,"la otra picha":32220663856,}
