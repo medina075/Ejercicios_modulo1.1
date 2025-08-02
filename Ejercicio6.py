@@ -15,6 +15,6 @@ def promedio():
 
        print(f"El promedio es: {promedio_nota}")
        print(f"La mejor nota es:  {mejor_nota}")
-       print(f"La mejor nota es:  {peor_nota}")
+       print(f"La peor nota es:  {peor_nota}")
 promedio()
 

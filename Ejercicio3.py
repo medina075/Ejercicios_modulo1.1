@@ -14,3 +14,6 @@ for letra in frase.lower():
             vocales += 1
         else:
             consonantes += 1
+
+print("cantidad de vocales:", vocales)
+print("cantidad de consonantes:", consonantes)

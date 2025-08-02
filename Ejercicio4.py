@@ -1,3 +1,5 @@
+numero = int(input("ingresa un número entero para crear la tabla de multiplicar: "))
+
 if numero<0:
     print("ingrese un valor valido")
 elif numero>=0:

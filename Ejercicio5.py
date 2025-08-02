@@ -1,3 +1,6 @@
+
+numero_correcto= 76
+
 print("Adivina el número entre 1 y 100")
 
 
