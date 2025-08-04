@@ -1,6 +1,6 @@
-def calcular_promedio(calificaciones):
+def calcular_promedio(notas):
     """
-    Calcula el promedio de una lista de calificaciones.
+    Calcula el promedio de una lista de notas.
 
     Parámetros:
         calificaciones (list): Lista de números (floats o ints).
@@ -8,9 +8,9 @@ def calcular_promedio(calificaciones):
     Retorna:
         float: Promedio de las calificaciones. Si la lista está vacía, retorna 0.0.
     """
-    if not calificaciones:
+    if not notas:
         return 0.0
-    return sum(calificaciones) / len(calificaciones)
+    return sum(notas) / len(notas)
 
 
 def obtener_estado(promedio):
@@ -21,9 +21,9 @@ def obtener_estado(promedio):
         promedio (float): Promedio del estudiante.
 
     Retorna:
-        str: "Aprobado" si el promedio es mayor o igual a 3.0, "Reprobado" en caso contrario.
+        str: "paso" si el promedio es mayor o igual a 3.0, "perdio" en caso contrario.
     """
-    return "Aprobado" if promedio >= 3.0 else "Reprobado"
+    return "paso" if promedio >= 3.0 else "perdio"
 
 
 def generar_reporte(estudiantes):
@@ -47,10 +47,10 @@ def generar_reporte(estudiantes):
 
 # Diccionario principal con estudiantes y sus calificaciones
 estudiantes = {
-    "Ana": [4.5, 3.8, 4.2],
-    "Juan": [2.5, 2.8, 3.0],
-    "María": [5.0, 4.7, 4.9],
-    "Luis": [2.0, 1.8, 2.5]
+    "Carlos": [4.5, 3.8, 4.2],
+    "David": [2.5, 2.8, 3.0],
+    "Feider": [5.0, 4.7, 4.9],
+    "Andres": [2.0, 1.8, 2.5]
 }
 
 # Ejecutar la función principal
