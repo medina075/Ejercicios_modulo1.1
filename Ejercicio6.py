@@ -1,7 +1,14 @@
-cant_notas = int(input("Ingrese la cantidad de notas: "))
+while True:
+    cant_notas = input("Ingrese la cantidad de notas: ")
+    try:
+        numero = int(cant_notas)
+        break
+    except ValueError:
+        print("solo numeros")
+
 def promedio():
        lista = []
-       for i in range(cant_notas):
+       for i in range(numero):
            valor1 = float(input(f"Ingrese las notas"))
            if valor1 < 0:
                print("la nota no puede ser menor a 0")
